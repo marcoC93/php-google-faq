@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#navbar-top {
+  height: 50px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-top span {
+  font-size: 1.5em;
+  color: #5f6368;
+}
+
+#navbar-bottom {
+  width: 50%;
+}
+
+#navbar-bottom ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#navbar-bottom ul li {
+  padding: 10px;
+}
+
