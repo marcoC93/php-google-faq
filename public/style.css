@@ -8,6 +8,11 @@ body {
   font-family: "Google Sans", sans-serif;
 }
 
+.nav-container {
+  max-width: 95%;
+  margin: auto;
+}
+
 .container {
   max-width: 80%;
   margin: auto;
@@ -25,6 +30,7 @@ ul {
 }
 
 #navbar-top span {
+  padding: 10px;
   font-size: 1.5em;
   color: #5f6368;
 }
@@ -37,9 +43,24 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 
 #navbar-bottom ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+#navbar-bottom ul .active {
+  border-bottom: 3px solid #3367d6;
+  color: #3367d6;
+}
+
+main h2 {
+  padding: 20px;
+}
+
+main p {
   padding: 10px;
 }
 

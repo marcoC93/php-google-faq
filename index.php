@@ -61,6 +61,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="public/style.css">
         <meta charset="utf-8">
         <title></title>
@@ -68,18 +69,24 @@
     <body>
         <header>
             <nav>
-                <div id="navbar-top">
-                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
-                    <span> privacy e termini</span>
-                </div>
-                <div id="navbar-bottom">
-                    <ul>
-                        <li>Introduzione</li>
-                        <li>Norme sulla privacy</li>
-                        <li>Termini di servizio</li>
-                        <li>Tecnologie</li>
-                        <li>Domande frequenti</li>
-                    </ul>
+                <div class="nav-container">
+                    <div id="navbar-top">
+                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                        <span> privacy e termini</span>
+                        <i class="fas fa-th"></i>
+                        <button type="button" name="button">
+                             Accedi
+                        </button>
+                    </div>
+                    <div id="navbar-bottom">
+                        <ul>
+                            <li>Introduzione</li>
+                            <li>Norme sulla privacy</li>
+                            <li>Termini di servizio</li>
+                            <li>Tecnologie</li>
+                            <li class="active">Domande frequenti</li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>

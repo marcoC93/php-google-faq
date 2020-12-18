@@ -4,19 +4,30 @@
     display: flex;
     align-items: center;
     span {
+        padding: $standard_spacing ;
         font-size: 1.5em;
         color: #5f6368;
+    }
+    img {
+
     }
 }
 #navbar-bottom {
     width: 50%;
+
     ul {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        
+        cursor: pointer;
         li {
-            padding: 10px;
+            padding: $standard_spacing ;
+            margin: $standard_spacing ;
+
+        }
+        .active {
+            border-bottom: 3px solid #3367d6 ;
+            color: #3367d6 ;
         }
     }
 }
