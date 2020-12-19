@@ -73,10 +73,13 @@
                     <div id="navbar-top">
                         <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
                         <span> privacy e termini</span>
-                        <i class="fas fa-th"></i>
-                        <button type="button" name="button">
-                             Accedi
-                        </button>
+                        <div class="navbar-top-right">
+                            <i class="fas fa-th"></i>
+                            <button type="button" name="button">
+                                 Accedi
+                            </button>
+                        </div>
+
                     </div>
                     <div id="navbar-bottom">
                         <ul>
@@ -98,6 +101,27 @@
                 <?php } ?>
             </div>
         </main>
+        <footer>
+            <div class="container">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su google</li>
+                    <li>privacy</li>
+                    <li>Termini</li>
+                </ul>
+                <div id="page-language">
+                    <i class="fas fa-language"></i>
+                    <select class="" name="">
+                        <option value="">Italiano</option>
+                        <option value="">Italiano</option>
+                        <option value="">Italiano</option>
+                        <option value="">Italiano</option>
+                        <option value="">Italiano</option>
+                    </select>
+                </div>
+
+            </div>
+        </footer>
 
     </body>
 </html>
