@@ -1,8 +1,8 @@
 #navbar-top {
     height: 50px;
-    vertical-align: middle;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     span {
         padding: $standard_spacing ;
         font-size: 1.5em;
@@ -11,7 +11,7 @@
     img {
 
     }
-    
+
 }
 #navbar-bottom {
     width: 50%;

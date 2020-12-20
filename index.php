@@ -71,8 +71,10 @@
             <nav>
                 <div class="nav-container">
                     <div id="navbar-top">
-                        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
-                        <span> privacy e termini</span>
+                        <div id="navbar-top-left">
+                            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                            <span> privacy e termini</span>
+                        </div>
                         <div class="navbar-top-right">
                             <i class="fas fa-th"></i>
                             <button type="button" name="button">
